@@ -1,0 +1,30 @@
+/* Estilos básicos para o botão */
+.record-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão durante a gravação */
+.recording {
+  background-color: #e74c3c;
+}
+
+/* Efeito de transição suave */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
